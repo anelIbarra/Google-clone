@@ -178,3 +178,51 @@ main .main-links a:visited{
     color: #2514e6;
 }
 /* Estilos de la seccion principal y de los botones */
+footer .footer-location{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    background-color:#F2F2F2 ;
+    margin-top:375px;
+    color: #70757A;
+}
+footer .footer-location span{
+    margin-left:20px ;
+}
+
+footer .footer-links{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color:#F2F2F2 ;
+    border-top: 1px solid #DADCE0;
+    
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+   
+    
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: #70757A;
+}
